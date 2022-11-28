@@ -7,6 +7,7 @@ new_line = '\n'
 #Reading CopyFailedFile
 for line in Lines_Copyfailedfile:
     #print(line)
+    #Before extracting the objID please add a delimeter before the objectID%
     #extract the OBJID
     x= line.split("*")
    # print(x)
